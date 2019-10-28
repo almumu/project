@@ -24,10 +24,12 @@
         <field name="type">form</field>
         <field name="arch" type="xml">
 
-            <xpath expr="//header" position="inside">
-                <field name="project_status"
-                    widget="statusbar" clickable="True"
-                    options="{'fold_field': 'fold'}"/>
+            <xpath expr="//sheet" position="before">
+                <header>
+                    <field name="project_status"
+                        widget="statusbar" clickable="True"
+                        options="{'fold_field': 'fold'}"/>
+                </header>
             </xpath>
 
         </field>
