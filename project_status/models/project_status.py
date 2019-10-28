@@ -7,7 +7,7 @@ class ProjectStatus(models.Model):
     _order = "status_sequence"
     _description = "Project Status"
 
-    name = fields.Char(string="Name", required=True)
+    name = fields.Char(string="Name", translate=True, required=True)
     description = fields.Char(string="Description")
     status_sequence = fields.Integer(string="Sequence")
     is_closed = fields.Boolean(
