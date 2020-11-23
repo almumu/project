@@ -123,14 +123,8 @@ msgid "Products"
 msgstr "Proizvodi"
 
 #. module: project_task_material_stock
-#: model:ir.model,name:project_task_material_stock.model_project_project
-msgid "Project"
-msgstr "Projekt"
-
-#. module: project_task_material_stock
 #: model:stock.picking.type,name:project_task_material_stock.project_task_material_picking_type
 #, fuzzy
-#| msgid "Task Material Used"
 msgid "Project Task Material Operations"
 msgstr "Materijal utrošen na zadatku"
 
@@ -180,7 +174,6 @@ msgstr "Prebaci materijale"
 #. module: project_task_material_stock
 #: model:ir.model.fields,field_description:project_task_material_stock.field_project_task_picking_id
 #, fuzzy
-#| msgid "Transfer Materials"
 msgid "Transfer Reference"
 msgstr "Prebaci materijale"
 
@@ -190,6 +183,11 @@ msgid "Unit of Measure"
 msgstr "Jedinica mjere"
 
 #. module: project_task_material_stock
+#: model:ir.model,name:project_task_material_stock.model_project_project
+msgid "WBS element"
+msgstr ""
+
+#. module: project_task_material_stock
 #: code:addons/project_task_material_stock/models/project_task.py:118
 #, python-format
 msgid ""
@@ -197,3 +195,6 @@ msgid ""
 msgstr ""
 "Nije moguće prebacivanje u stanje bez utroška ako već postoje analitičke "
 "stavke."
+
+#~ msgid "Project"
+#~ msgstr "Projekt"
