@@ -4,16 +4,19 @@
 
 <odoo>
     <record id="project.project_project_2" model="project.project">
+        <field name="name">project_2</field>
         <field name="date_start" eval="(DateTime.today() - timedelta(days=30)).strftime('%Y-%m-%d')"/>
         <field name="date" eval="(DateTime.today() + timedelta(days=10)).strftime('%Y-%m-%d')"/>
     </record>
 
     <record id="project.project_project_3" model="project.project">
+        <field name="name">project_3</field>
         <field name="date_start" eval="(DateTime.today() - timedelta(days=5)).strftime('%Y-%m-%d')"/>
         <field name="date" eval="(DateTime.today() + timedelta(days=2)).strftime('%Y-%m-%d')"/>
     </record>
 
     <record id="project.project_project_4" model="project.project">
+        <field name="name">project_4</field>
         <field name="date_start" eval="(DateTime.today() - timedelta(days=7)).strftime('%Y-%m-%d')"/>
         <field name="date" eval="(DateTime.today() + timedelta(days=10)).strftime('%Y-%m-%d')"/>
     </record>
