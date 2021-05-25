@@ -25,7 +25,8 @@ addon | version | summary
 [project_description](project_description/) | 11.0.1.0.0 | Add a description to projects
 [project_hr](project_hr/) | 11.0.1.0.0 | Link HR with project
 [project_key](project_key/) | 11.0.1.0.1 | Module decorates projects and tasks with ``key`` field
-[project_risk](project_risk/) | 11.0.1.0.0 | MOR risk management method
+[project_list](project_list/) | 11.0.1.0.0 | Projects list view
+[project_risk](project_risk/) | 11.0.1.0.1 | MOR risk management method
 [project_stage_closed](project_stage_closed/) | 11.0.1.0.0 | Make the Closed flag on Task Stages available without installing sale_service
 [project_stage_state](project_stage_state/) | 11.0.1.0.0 | Restore State attribute removed from Project Stages in 8.0
 [project_task_add_very_high](project_task_add_very_high/) | 11.0.1.0.0 | Adds extra options 'High' and 'Very High' on tasks
@@ -39,6 +40,7 @@ addon | version | summary
 [project_task_pull_request](project_task_pull_request/) | 11.0.1.0.0 | Adds a field for a PR URI to project tasks
 [project_task_send_by_mail](project_task_send_by_mail/) | 11.0.1.0.0 | Send task report by email
 [project_task_type_active](project_task_type_active/) | 11.0.1.0.0 | Adds active field on project task type
+[project_template](project_template/) | 11.0.1.0.1 | Project Templates
 [project_timeline](project_timeline/) | 11.0.1.1.0 | Timeline view for projects
 [project_timeline_critical_path](project_timeline_critical_path/) | 11.0.1.0.0 | Highlight the critical paths of your projects.
 [project_timeline_hr_timesheet](project_timeline_hr_timesheet/) | 11.0.1.0.0 | Shows the progress of tasks on the timeline view.
